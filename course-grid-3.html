@@ -46,49 +46,45 @@
 		<div class="modal-content">
 			<div class="modal-header tit-up">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
+				<h4 class="modal-title">Students Registration</h4>
 			</div>
 			<div class="modal-body customer-box">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					<li><a class="active" href="#Registration" data-toggle="tab">Registration</a></li>
+					
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
+						<form method="post" action="gwakisasamuel512@gmail.com" role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email1" placeholder="Name" type="text">
+									<input class="form-control" name="students name" placeholder="Students Full Name" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+									<input class="form-control"  name="Students former school name" placeholder="Students former school name" type="text">
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-10">
-									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
-									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
+								<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
+									<input class="form-control"  name="Fathers full name" placeholder="Fathers Full Name" type="text">
+								</div></div>
+								
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="mobile" name="fathers phone number" placeholder="fathers fone number" type="email">
+									</div>
 								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
-								</div>
+									<div class="form-group">
+										<div class="col-sm-12">
+											<input class="form-control" id="email" name="Fathers email" placeholder="Fathers email" type="email">
+										</div></div>
+									<div class="form-group">
+										<div class="col-sm-12">
+											<input class="form-control"  name="Mothers full name" placeholder="Mothers full name" type="text">
+										</div></div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
@@ -96,13 +92,25 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
-								</div>
+									STUDENTS GENDER:<BR>
+								<input type="radio" name="genre" value="pop" />MALE<input type="radio" name="genre" value="pop" />FEMALE
+								<div id="join">
+								<select name="devices" id="joing">
+									<option value="Your joining class">Your joining class</option>
+									<option value="form one">FORM ONE</option>
+									<option value="form two">FORM TWO</option>
+									<option value="form three">FORM THREE</option>
+									<option value="form four ">FORM FOUR</option>
+									<option value="form FIVE">FORM FIVE</option>
+									<option value="form six">FORM SIX</option>
+									</select><BR>
+									<textarea name="comments" cols="70" rows="4" placeholder="MASSAGE"></textarea><BR><br>
+									</div>
 							</div>
-							<div class="row">							
+							<div class="row">	
+													
 								<div class="col-sm-10">
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
 										Save &amp; Continue
 									</button>
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
@@ -111,6 +119,7 @@
 							</div>
 						</form>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -150,7 +159,7 @@
 						<li class="nav-item"><a class="nav-link" href="pricing.html">News</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>REGISTRATION</span></a></li>
                     </ul>
 				</div>
 			</div>
@@ -219,30 +228,7 @@
 
 
             </div>
-    <div class="parallax section dbcolor">
-        <div class="container">
-            <div class="row logos">
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+    
 
     <footer class="footer">
         <div class="container">
@@ -255,17 +241,17 @@
                         <p> Beroya Mission secondary School, is a bording School which is found in the coastar regions in bagamoyo district through mlandizi road the School it is under TANZANIA ASSEMBLIS OF GOD (T.A.G)<br><br>
 
 also lead DISCIPLESHIP AND LITERATURE DEPARTMENT (DLD) This School is for Girls and Boys this School it has a good environment for studing<br><br></p>   
-						<div class="footer-right">
-							<ul class="footer-links-soi">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#"><i class="fa fa-map"></i></a></li>
-								<li><a href="#"><i class="fa fa-phone"></i></a></li>
-							</ul><!-- end links -->
-						</div>						
-                    </div><!-- end clearfix -->
+<div class="footer-right">
+	<ul class="footer-links-soi">
+		<li><a href="https://www.facebook.com/p/Beroya-mission-secondary-school-100076242185149/https://www.facebook.com/p/Beroya-mission-secondary-school-100076242185149/"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="https://www.instagram.com/beroya_mission_secondary/?hl=en"><i class="fa fa-instagram"></i></a></li>
+		<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+		<li><a href="https://www.youtube.com/results?search_query=beroya+mission+secondary+school+bagamoyo"><i class="fa fa-youtube"></i></a></li>
+		<li><a href="https://www.google.com/maps/search/Beroya+Mission+Secondary+School/@-6.5190799,38.8746222,14z/data=!3m1!4b1?entry=ttu"><i class="fa fa-map"></i></a></li>
+		<li><a href="course-grid-3.html"><i class="fa fa-phone"></i></a></li>
+	</ul><!-- end links -->
+</div>						
+</div><!-- end clearfix -->
                 </div><!-- end col -->
 
 				

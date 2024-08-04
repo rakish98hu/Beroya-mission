@@ -14,6 +14,8 @@
     <meta name="description" content=" Beroya Mission is the best school in tanzania which provides spiritual growth and beter education">
     <meta name="author" content="The name of the outhor is gwakisa samuel">
 
+
+
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/BER.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/BER.png.png">
@@ -47,49 +49,45 @@
 		<div class="modal-content">
 			<div class="modal-header tit-up">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
+				<h4 class="modal-title">Students Registration</h4>
 			</div>
 			<div class="modal-body customer-box">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					<li><a class="active" href="#Login" data-toggle="tab">Registration</a></li>
+					
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
+						<form method="post" action="gwakisasamuel512@gmail.com" role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email1" placeholder="Name" type="text">
+									<input class="form-control" name="students name" placeholder="Students Full Name" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+									<input class="form-control"  name="Students former school name" placeholder="Students former school name" type="text">
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-10">
-									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
-									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
+								<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
+									<input class="form-control"  name="Fathers full name" placeholder="Fathers Full Name" type="text">
+								</div></div>
+								
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="mobile" name="fathers phone number" placeholder="fathers fone number" type="email">
+									</div>
 								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
-								</div>
+									<div class="form-group">
+										<div class="col-sm-12">
+											<input class="form-control" id="email" name="Fathers email" placeholder="Fathers email" type="email">
+										</div></div>
+									<div class="form-group">
+										<div class="col-sm-12">
+											<input class="form-control"  name="Mothers full name" placeholder="Mothers full name" type="text">
+										</div></div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
@@ -97,13 +95,25 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
-								</div>
+									STUDENTS GENDER:<BR>
+								<input type="radio" name="genre" value="pop" />MALE<input type="radio" name="genre" value="pop" />FEMALE
+								<div id="join">
+								<select name="devices" id="joing">
+									<option value="Your joining class">Your joining class</option>
+									<option value="form one">FORM ONE</option>
+									<option value="form two">FORM TWO</option>
+									<option value="form three">FORM THREE</option>
+									<option value="form four ">FORM FOUR</option>
+									<option value="form FIVE">FORM FIVE</option>
+									<option value="form six">FORM SIX</option>
+									</select><BR>
+									<textarea name="comments" cols="70" rows="4" placeholder="MASSAGE"></textarea><BR><br>
+									</div>
 							</div>
-							<div class="row">							
+							<div class="row">	
+													
 								<div class="col-sm-10">
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
 										Save &amp; Continue
 									</button>
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
@@ -112,6 +122,7 @@
 							</div>
 						</form>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -191,7 +202,7 @@
 						
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>REGISTRATION FORM</span></a></li>
                     </ul>
 				</div>
 			</div>
@@ -217,9 +228,9 @@
 										<h1>Beroya Mission High School</h1>
 										<h2><strong>Beroya</strong> Mission High School</h2>
 										<p class="lead">A school with better education and spiritual growth </p>
-											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											<a href="course-grid-3.html" class="hover-btn-new"><span>Contact Us</span></a>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+											<a href="pricing.html" class="hover-btn-new"><span>Read More</span></a>
 
 
 
@@ -243,7 +254,7 @@
 										<p class="lead" data-animation="animated fadeInLeft">We empower students with the Knowledge, skills & values to thrive in an ever-changing word. </p>
 											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+											<a href="pricing.html" class="hover-btn-new"><span>Read More</span></a>
 									</div>
 								</div>
 							</div><!-- end row -->            
@@ -260,9 +271,9 @@
 									<div class="big-tagline">
 										<h2 data-animation="animated zoomInRight"><strong>Spiritual</strong> Growth</h2>
 										<p class="lead" data-animation="animated fadeInLeft">We enurbored our students through christ-centered education that empahesies personal faith, biblical princeples and community engagement.</p>
-											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											<a href="course-grid-3.html" class="hover-btn-new"><span>Contact Us</span></a>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+											<a href="pricing.html" class="hover-btn-new"><span>Read More</span></a>
 									</div>
 								</div>
 							</div><!-- end row -->            
@@ -309,7 +320,10 @@ bring the youth together through team-work in academics
 
  </p>
 
-                        <a href="about.html" class="hover-btn-new orange"><span>Learn More</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="blog.html" class="hover-btn-new orange"><span>Apply online</span></a>
+                        <a href="pricing.html" class="hover-btn-new orange"><span>Learn More</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+							<a class="hover-btn-new orange" href="#" data-toggle="modal" data-target="#login"><span>apply online</span></a>
+						
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 				
@@ -361,7 +375,7 @@ This School is for
 Girls and Boys this School it has a good
 environment for studing</p>
 
-                        <a href="about.html" class="hover-btn-new orange"><span>Learn More</span></a>
+                        <a href="pricing.html" class="hover-btn-new orange"><span>Learn More</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 				
@@ -374,7 +388,7 @@ environment for studing</p>
 			 <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
                     <h3>Our history</h3>
-                    <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
+                    <p class="lead">Short History Obout Our School</p>
                 </div>
             </div><!-- end title -->
 			<div class="timeline">
@@ -394,44 +408,32 @@ environment for studing</p>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-03">
-								<h2>2014</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								
 							</div>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-04">
-								<h2>2012</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								
 							</div>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-01">
-								<h2>2010</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
 							</div>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-02">
-								<h2>2007</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
 							</div>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-03">
-								<h2>2004</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								
 							</div>
 						</div>
 						<div class="timeline__item">
 							<div class="timeline__content img-bg-04">
-								<h2>2002</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -446,19 +448,19 @@ environment for studing</p>
 			<div class="row text-left stat-wrap">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
-					<p class="stat_count">2000</p>
+					<p class="stat_count">479</p>
 					<h3>Students</h3>
 				</div><!-- end col -->
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-online"></i></span>
-					<p class="stat_count">240</p>
-					<h3>Courses</h3>
+					<p class="stat_count">25</p>
+					<h3>Teachers</h3>
 				</div><!-- end col -->
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
-					<p class="stat_count">55</p>
+					<p class="stat_count">1</p>
 					<h3>Years Completed</h3>
 				</div><!-- end col -->
 			</div><!-- end row -->
@@ -469,7 +471,7 @@ environment for studing</p>
         <div class="container">
             <div class="section-title text-center">
                 <h3>Choose Your Plan</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>In Beroya Mission We Have o-leval studies with A-leval Studies</p>
             </div><!-- end title -->
 
            
@@ -493,7 +495,7 @@ environment for studing</p>
                                           <center> <strong>Our O-Level education provided at Beroya Mission for all Boys and Girls. as the School have professional teachers which teach the o -leval student in order to perfom well</strong></center>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="blog.html" class="hover-btn-new orange"><span>Apply online</span></a>
+                                            <a class="hover-btn-new orange" href="#" data-toggle="modal" data-target="#login"><span>apply online</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -505,11 +507,11 @@ environment for studing</p>
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                        	<center><img src="images2/u.jpg" width="250" height="250" alt="Beroya Mission"></div></center>
+                                        	<center><img src="images2/sch.jpg" width="250" height="250" alt="Beroya Mission"></div></center>
                                             <center><strong>A-Level education provided at Beroya Mission for all Boys and Girls and the School has been consitently doing best at NECTA's exams, and academicary sinse 2021 Our Students score only division one and Two</strong></center>
                                         
                                         <div class="pricing-table-sign-up">
-                                            <a href="blog.html" class="hover-btn-new orange"><span>Apply online</span></a>
+                                            <a class="hover-btn-new orange" href="#" data-toggle="modal" data-target="#login"><span>apply online</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -533,7 +535,7 @@ environment for studing</p>
         <div class="container">
             <div class="section-title text-center">
                 <h3>Testimonials</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>Some of the testimonies said by our students and parents. </p>
             </div><!-- end title -->
 
             <div class="row">
@@ -541,109 +543,55 @@ environment for studing</p>
                     <div class="testi-carousel owl-carousel owl-theme">
                         <div class="testimonial clearfix">
 							<div class="testi-meta">
-                                <img src="images/testi_01.png" alt="Beroya Mission" class="img-fluid">
-                                <h4>James Fernando </h4>
+                                <img src="images2/testimo4.png" alt="Beroya Mission" class="img-fluid">
+                                <h4>Hellen C. Mwakimonga<br>
+									(Mwanafunzi lidato cha tatu 2024) </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful School!</h3>
+                                <p class="lead">Namshukuru Mungusana Kwakunipa Nafasi ya kusoma Beroya Mission, Maana nina enderea kua na maadiri Mazuri Nujuzi Wangu Kuonge zeka kumjua Mungu Zaidi</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images2/testimo2.png" alt="Beroya Mission" class="img-fluid">
+                                <h4>Joshua R. SCHOOL<br>
+									(Mwanafunzi muhitimu)
+								</h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome School!</h3>
+                                <p class="lead">"Nafurahi kuwepo Beroya Mission High<br>Kwani Napata Nafasi ya kujifunza , Kumtumikia Mungu na kupata Elimu bora"</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images2/testimo3.png" alt="Beroya Mission" class="img-fluid ">
+                                <h4>Daniel Kasonso<br>
+									(Mwanafunzi Muhitimu)
+								</h4>
                             </div>
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                                <p class="lead">Nawapenda walimu wangu, Kwani muda wote wapo tayali kunisikiliza pale ninaposhindwa Mungu awa baliki sana. </p>
                             </div>
                             <!-- end testi-meta -->
                         </div>
                         <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_02.png" alt="Beroya Mission" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_03.png" alt="Beroya Mission" class="img-fluid ">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_01.png" alt="Beroya Mission" class="img-fluid">
-                                <h4>James Fernando </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_02.png" alt="Beroya Mission" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_03.png" alt="Beroya Mission" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
+                       
                     </div><!-- end carousel -->
                 </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <div class="parallax section dbcolor">
-        <div class="container">
-            <div class="row logos">
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_01.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_02.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_03.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_04.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_05.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_06.png" alt="Beroya Mission" class="img-repsonsive"></a>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+    
 
     <footer class="footer">
         <div class="container">
@@ -658,12 +606,12 @@ environment for studing</p>
 also lead DISCIPLESHIP AND LITERATURE DEPARTMENT (DLD) This School is for Girls and Boys this School it has a good environment for studing<br><br></p>   
 						<div class="footer-right">
 							<ul class="footer-links-soi">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://www.facebook.com/p/Beroya-mission-secondary-school-100076242185149/https://www.facebook.com/p/Beroya-mission-secondary-school-100076242185149/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/beroya_mission_secondary/?hl=en"><i class="fa fa-instagram"></i></a></li>
 								<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#"><i class="fa fa-map"></i></a></li>
-								<li><a href="+25555196645"><i class="fa fa-phone"></i></a></li>
+								<li><a href="https://www.youtube.com/results?search_query=beroya+mission+secondary+school+bagamoyo"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="https://www.google.com/maps/search/Beroya+Mission+Secondary+School/@-6.5190799,38.8746222,14z/data=!3m1!4b1?entry=ttu"><i class="fa fa-map"></i></a></li>
+								<li><a href="course-grid-3.html"><i class="fa fa-phone"></i></a></li>
 							</ul><!-- end links -->
 						</div>						
                     </div><!-- end clearfix -->
